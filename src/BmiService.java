@@ -1,6 +1,6 @@
 public class BmiService {
     public float calculate(int a, float b){
-        float result = a / (b * b);
+        int result = (int) (a / (b * b));
         return result;
     }
 }
